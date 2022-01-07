@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
                     "address varchar(20));";
     // Day la chuan nay 
     // Khong phai nhu the dau 
+    // Thoi nay nghi thoi chu met lam roi 
     
     QSqlQuery qry;
     if(!qry.exec(query))
