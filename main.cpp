@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
                     "last_Name varchar(20),"
                     "day_Of_Birth datetime,"
                     "address varchar(20));";
+    // Day la chuan nay 
     QSqlQuery qry;
     if(!qry.exec(query))
     {
